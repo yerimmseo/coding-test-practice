@@ -1,7 +1,6 @@
 package level1;
 
 public class NewIdSuggest {
-	
 	public String solution(String new_id) {
 		String answer = "";
 		// 1´Ü°è
