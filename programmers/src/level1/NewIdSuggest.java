@@ -4,7 +4,6 @@ public class NewIdSuggest {
 	
 	public String solution(String new_id) {
 		String answer = "";
-		
 		// 1단계
 		answer = new_id.toLowerCase();
 		// 2단계
@@ -30,7 +29,6 @@ public class NewIdSuggest {
 				answer += answer.substring(answer.length() - 1);
 			}
 		}
-		System.out.println(answer);
 		return answer;
 	}
 }
