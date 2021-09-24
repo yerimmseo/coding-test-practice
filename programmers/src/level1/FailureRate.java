@@ -43,6 +43,7 @@ public class FailureRate {
 				}
 			}
 		}
+		answer = rank;
 		return answer;
 	}
 }
