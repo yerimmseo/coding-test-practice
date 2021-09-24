@@ -3,7 +3,7 @@ package level1;
 import java.util.HashMap;
 import java.util.Map;
 
-//스테이지 개수
+// N = 스테이지 개수
 // 실패율 = 스테이지에 도달했으나 아직 클리어하지 못한 플레이어의 수 / 스테이지에 도달한 플레이어 수
 public class FailureRate {
 	public int[] solution(int N, int[] stages) {
