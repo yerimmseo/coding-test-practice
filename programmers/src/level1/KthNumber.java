@@ -33,13 +33,13 @@ public class KthNumber {
 			answer[i] = arr[offset - 1];
 		}
 		
-		/* Arrays.copyOfRange : 배열을 복사하는 메서드 
-		for (int i = 0; i < commands.length; i++) {
-			int[] temp = Arrays.copyOfRange(array, commands[i][0] - 1, commands[i][1]);
-			Arrays.sort(temp);
-			answer[i] = temp[commands[i][2] - 1];
-		}
-		*/
+		// Arrays.copyOfRange(int[] original, int from, int to): 배열을 복사하는 메서드(복사할 배열, 시작, 끝) 
+//		for (int i = 0; i < commands.length; i++) {
+//			int[] temp = Arrays.copyOfRange(array, commands[i][0] - 1, commands[i][1]);
+//			Arrays.sort(temp);
+//			answer[i] = temp[commands[i][2] - 1];
+//		}
+		
 		return answer;
 	}
 } 
